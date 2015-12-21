@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">NPS Tracker</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_scheme_list">Portfolio Details</string>
+    <string name="title_activity_transaction_list">Transactions</string>
+</resources>

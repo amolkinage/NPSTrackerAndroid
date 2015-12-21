@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textPortfolioName"
+        android:longClickable="false"
+        android:text="Tier 1"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:clickable="false"
+        android:focusable="false"
+        android:layout_marginTop="5dp"
+        android:text="20000"
+        android:id="@+id/textPortfolioMktValue"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:clickable="false"
+        android:focusable="false"
+        android:text="2.34%"
+        android:id="@+id/textCAGR"
+        android:layout_gravity="right"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:clickable="false"
+        android:focusable="false"
+        android:text="19000"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:id="@+id/textInvestValue"
+        android:layout_below="@+id/textPortfolioName"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:clickable="false"
+        android:focusable="false"
+        android:text="3.45%"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:id="@+id/textAbsRet"
+        android:layout_below="@+id/textCAGR"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
